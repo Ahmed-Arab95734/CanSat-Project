@@ -6,16 +6,21 @@ Our CanSat Mission is to determine:
 2- Pressure 6- Air Quality
 3- Acceleration & Orientation 7- Altitude
 4- Position (Longitude and Latitude) 8- Magnetic Field (compass)
+
 And all these data stored in SD Card & transmit wirelessly to the ground station throw RF module.
 We worked on four subsystems (four teams) and integrated them together to achieve CanSat,
 those are:
+
 A. Coding Team
+
 To measure each parameter we have mentioned before, we used a combination of sensors and
 electrical devices, Selection of this combination undergoes some limitations:
 - Availability in Egypt
 - Impact on total budget
+
 We used OOP to create library for each sensor to make writing the main program sketch easy and
 manageable.
+
 These Sensors and Electrical devices are:
 - ATMEGA 328p microcontroller as the brain of CanSat.
 - GPS NEO 6M to Determine CanSat Location (Longitude, Latitude and Altitude).
